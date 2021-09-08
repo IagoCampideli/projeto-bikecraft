@@ -137,7 +137,6 @@ p {
   letter-spacing: 0.1em;
   margin-top: 20px;
 }
-
 .produtos-lista li h3::after {
   content: "";
   display: block;
@@ -149,22 +148,18 @@ p {
 .produtos-lista li p {
   padding: 10px 20px 20px 20px;
 }
-
 .produtos-icone {
   background: #000;
   padding: 20px;
 }
-
 .call {
   text-align: center;
   padding-top: 40px;
   clear: both;
 }
-
 .call p {
   padding-bottom: 20px;
 }
-
 .tag a {
   color: #000;
   font-size: 18px;
@@ -174,8 +169,26 @@ p {
   letter-spacing: 0.1em;
   margin: 3px auto;
 }
-
 .tag a:hover {
   color: #fff;
   border-color: #fff;
+}
+/* Portifólio */
+.portifolio {
+  width: 100%;
+  background: black;
+  padding: 40px 0;
+}
+.portifolio .subtitulo {
+  color: #fec63e;
+}
+/*Aqui está o traço a baixo dos subtitulos*/
+.portifolio .subtitulo:after {
+  background: #fec63e;
+}
+.portifolio-lista li:last-child {
+  margin-top: 20px;
+}
+.portifolio .call p {
+  color: #fff;
 }
