@@ -21,6 +21,11 @@ p {
   color: #fff;
   border-color: #fff;
 }
+
+.btn.btn-preto:hover {
+  color: #000;
+  border-color: #000;
+}
 .subtitulo {
   font-weight: bold;
   font-size: 24px;
@@ -47,6 +52,7 @@ p {
   width: 100%;
   background: #fec63e; /*Amarelo*/
   padding: 15px 0;
+  z-index: 10;
 }
 .header_menu {
   text-align: right;
@@ -147,4 +153,29 @@ p {
 .produtos-icone {
   background: #000;
   padding: 20px;
+}
+
+.call {
+  text-align: center;
+  padding-top: 40px;
+  clear: both;
+}
+
+.call p {
+  padding-bottom: 20px;
+}
+
+.tag a {
+  color: #000;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin: 3px auto;
+}
+
+.tag a:hover {
+  color: #fff;
+  border-color: #fff;
 }
