@@ -10,6 +10,11 @@ p {
 img {
   display: block;
 }
+/**/
+/**/
+/**/
+/**/
+
 .btn {
   border: 3px solid #fec63e;
   padding: 10px 30px;
@@ -28,6 +33,11 @@ img {
   color: #000;
   border-color: #000;
 }
+/**/
+/**/
+/**/
+/**/
+
 .subtitulo {
   font-weight: bold;
   font-size: 24px;
@@ -47,7 +57,38 @@ img {
   margin: 10px auto;
 }
 
+/* Introdução Interna*/
+/**/
+/**/
+/**/
+/**/
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+.introducao-interna h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.introducao-interna h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 6px auto;
+}
+
 /*Header*/
+/**/
+/**/
+/**/
 .header {
   position: fixed;
   top: 00;
@@ -76,7 +117,13 @@ img {
 .header_menu ul li a:hover {
   color: #fff;
 }
+
 /*Introdução*/
+/**/
+/**/
+/**/
+/**/
+
 .introducao {
   width: 100%;
   height: 360px;
@@ -86,12 +133,16 @@ img {
   text-align: center;
   padding-top: 80px;
 }
-.container h1 {
+.introducao h1 {
   font-size: 48px;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
 }
+/**/
+/**/
+/**/
+/**/
 .quote-externo {
   max-width: 320px;
   margin: 0 auto;
@@ -123,7 +174,13 @@ img {
   font-size: 14px;
   letter-spacing: 0.1em;
 }
+
 /*Produtos*/
+/**/
+/**/
+/**/
+/**/
+/**/
 .produtos {
   padding: 60px 0;
 }
@@ -158,6 +215,11 @@ img {
   text-align: center;
   padding: 0 40px;
 }
+/**/
+/**/
+/**/
+/**/
+/**/
 .call {
   text-align: center;
   padding-top: 40px;
@@ -166,6 +228,7 @@ img {
 .call p {
   padding-bottom: 20px;
 }
+
 .tag a {
   color: #000;
   font-size: 18px;
@@ -179,7 +242,13 @@ img {
   color: #fff;
   border-color: #fff;
 }
+
 /* Portifólio */
+/**/
+/**/
+/**/
+/**/
+/**/
 .portifolio {
   width: 100%;
   background: black;
@@ -198,7 +267,13 @@ img {
 .portifolio .call p {
   color: #fff;
 }
+
 /* Qualidade */
+/**/
+/**/
+/**/
+/**/
+/**/
 .qualidade {
   padding: 60px 0;
 }
@@ -236,8 +311,13 @@ img {
   background: #000;
   margin: 10px auto;
 }
-/* Quebra */
 
+/* Quebra */
+/**/
+/**/
+/**/
+/**/
+/**/
 .quebra {
   width: 100%;
   height: 220px;
@@ -245,6 +325,10 @@ img {
   background-size: cover;
   text-align: center;
 }
+/**/
+/**/
+/**/
+/**/
 .footer {
   width: 100%;
   background: black;
@@ -279,6 +363,7 @@ img {
   display: inline-block;
   margin-right: 10px;
 }
+
 /* Criando uma borda ao redor dos icones das redes sociasi */
 .footer-rede ul li a {
   border: 3px solid #fec63e;
@@ -288,6 +373,10 @@ img {
 .footer-rede ul li a:hover {
   border-color: #fff;
 }
+/**/
+/**/
+/**/
+/**/
 .copy {
   width: 100%;
   background: #fec63e;
