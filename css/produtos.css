@@ -140,5 +140,27 @@
 }
 .orcamento-dados span {
   display: block;
-  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.dados-email {
+  margin-bottom: 40px;
+}
+.orcamento-dados ul {
+  padding-right: 60px;
+}
+
+.orcamento-dados ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+.orcamento-dados ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
+
+.orcamento-dados p {
+  margin: 8px 0;
 }
