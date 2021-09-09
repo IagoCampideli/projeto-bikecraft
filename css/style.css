@@ -56,6 +56,24 @@ img {
   background: #000;
   margin: 10px auto;
 }
+.subtitulo-interno {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 10px 0;
+}
 
 /* Introdução Interna*/
 /**/
@@ -117,6 +135,9 @@ img {
 .header_menu ul li a:hover {
   color: #fff;
 }
+.header_menu ul li a.menu-ativo {
+  color: #fff;
+}
 
 /*Introdução*/
 /**/
@@ -151,7 +172,9 @@ img {
 }
 .quote-externo p {
   font-style: italic;
+  padding-top: 20px;
 }
+
 .quote-externo p::before {
   content: "";
   display: block;
@@ -166,7 +189,7 @@ img {
   width: 60px;
   height: 3px;
   background: #fff;
-  margin: 14px auto auto;
+  margin: 4px auto auto;
 }
 .quote-externo cite {
   font-style: normal;
@@ -290,6 +313,11 @@ img {
 }
 .qualidade img {
   margin: 0 auto;
+}
+
+.qualidade-lista {
+  padding-top: 20px;
+  overflow: auto;
 }
 .qualidade-lista li {
   text-align: center;
