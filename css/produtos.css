@@ -1,0 +1,73 @@
+.interna-produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+.produto-item {
+  padding-top: 60px;
+}
+.produto-item h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  margin-bottom: -70px;
+}
+.produto-item h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 10px auto;
+}
+.produto-item h2::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 10px auto;
+}
+.produto-icone {
+  background: black;
+  padding: 70px 0;
+}
+.produto-icone img {
+  margin: 0 auto;
+}
+.produto-info {
+  background: black;
+}
+.produto-info p {
+  color: #fff;
+  padding: 20px 40px;
+  font-size: 18px;
+  height: 180px;
+  line-height: 25px;
+}
+.produto-info ul li {
+  background: #fec63e;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  float: left;
+  width: 229px;
+  height: 49px;
+  text-align: center;
+  padding-top: 16px;
+}
+.produto-info ul li:nth-child(1) {
+  margin-bottom: 2px;
+}
+.produto-info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+
+.produto-info ul li:nth-child(even) {
+  margin-left: 2px;
+}
